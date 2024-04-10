@@ -1,9 +1,1 @@
-function findSmallestMissingPositive(arr) {
-    let i = 1;
-
-    while (arr.includes(i)) {
-        i++;
-    }
-
-    return i;
-}
+console.log(findSmallestMissingPositive([3, 4, -1, 1]));
